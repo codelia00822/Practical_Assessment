@@ -1,4 +1,4 @@
-# Readme - Conversion of imperative to recursive of Floyd Warshall's Algorithm
+# Conversion to recursive of Floyd Warshall's Algorithm
 
 This assignment rewrites Floyd Warshall Alogorithm from imperative version to recursive version within Python.
 
