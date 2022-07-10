@@ -1,13 +1,13 @@
 # Conversion to recursive of Floyd Warshall's Algorithm
 
-This assessment rewrites Floyd Warshall Alogorithm from imperative version to recursive version within Python.
+This assessment rewrites Floyd Warshall’s Algorithm from imperative version to recursive version within Python.
 
-For more information of this assessment , see 'doc/practical_assessment.md'
+For more information of this assessment, see 'doc/practical_assessment.md'
 
 ## Quick start
 Please refer to the requirments.txt which has listed the required files to install. 
 
-To run the main codes in Windows, open the cmd and navigate to the directory 'src'  and execute the following command:
+To run the main codes in Windows, open the CMD and navigate to the directory 'src’ and execute the following command:
 
 floyd_recursive_version.py
 
@@ -22,13 +22,13 @@ This code runs a simple set of unit and performance tests. Please refer to the d
 The testing code can be run individually.
 
 
-## Lincense
+## License
 
 Copyright 2022 Chun WONG
 
 Licensed under the Apache License, Version 2.0
 
-For full license documentation , you may refer to 'license' or obtain a copy at
+For full license documentation, you may refer to 'license' or obtain a copy at
 
     http://www.apache.org/licenses/LICENSE-2.0
     
