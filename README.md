@@ -5,7 +5,7 @@ This assessment rewrites Floyd Warshall’s Algorithm from imperative version to
 For more information of this assessment, see 'doc/practical_assessment.md'
 
 ## Quick start
-Please refer to the requirments.txt which has listed the required files to install. It is recommended to run under Eclipse console as the scripting in developed under Eclipse IDE with PyDev module.
+Please refer to the 'dependencies.txt' which has listed the required files to install. It is recommended to run under Eclipse console as the scripting in developed under Eclipse IDE with PyDev module.
 
 However, there is still a way to run the main codes in Windows, open the CMD and navigate to the directory 'src’ and execute the following command:
 
