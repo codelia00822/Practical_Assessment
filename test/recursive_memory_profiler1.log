@@ -1,0 +1,16 @@
+Filename: Z:\Eclipse-Workspace\Floyd Warshall Alogorithm\test\Performance_test.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    33  19.5195 MiB  19.5195 MiB           1   @profile(precision=4, stream=open('recursive_memory_profiler1.log', 'w+'))
+    34                                         # Create memory check when execute timer
+    35                                         def Floyd_recursive_time():
+    36                                             # Create timer for recursive version coding with arguments graph
+    37  19.5234 MiB   0.0039 MiB           2       t = timeit.Timer("Floyd_recursive_version.floyd(graph)",
+    38  19.5195 MiB   0.0000 MiB           1                        setup="from __main__ import Floyd_recursive_version,\
+    39                                                               graph",
+    40                                                              )
+    41                                             # display execution time for desired numbers of runs
+    42  19.5234 MiB   0.0000 MiB           1       print('Elapsed time for recursive code: ', t.timeit(number=100))
+
+

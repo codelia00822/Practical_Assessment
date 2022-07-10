@@ -1,0 +1,16 @@
+Filename: Z:\Eclipse-Workspace\Floyd Warshall Alogorithm\test\Performance_test.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    21  19.4766 MiB  19.4766 MiB           1   @profile(precision=4, stream=open('imperative_memory_profiler.log', 'w+'))
+    22                                         # Create  memory check when execute timer
+    23                                         def Floyd_imperative_time():
+    24                                             # Create timer for imperative version coding with arguments graph
+    25  19.4961 MiB   0.0195 MiB           2       t = timeit.Timer("Floyd_imperative_version.floyd(graph)",
+    26  19.4805 MiB   0.0000 MiB           1                        setup="from __main__ import Floyd_imperative_version,\
+    27                                                               graph"
+    28                                                              )
+    29                                             # display execution time for desired numbers of runs
+    30  19.5078 MiB   0.0117 MiB           1       print('Elapsed time for imperative code: ', t.timeit(number=100))
+
+
