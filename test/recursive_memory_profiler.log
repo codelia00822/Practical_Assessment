@@ -1,0 +1,9 @@
+Filename: C:\Users\louis\git\sgcwong8\Floyd Warshall Alogorithm\test\Performance_test.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    51  19.585938 MiB  19.585938 MiB           1   @profile(precision=6, stream=open('recursive_memory_profiler.log', 'w+'))
+    52                                         def Floyd_recursive_memory():
+    53  19.589844 MiB   0.003906 MiB           1       Floyd_recursive_version.floyd(graph)
+
+

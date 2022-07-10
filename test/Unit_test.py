@@ -94,14 +94,15 @@ class Test_Floyd(unittest.TestCase):
         with self.assertRaises(IndexError):
             self = shortest_path(2, 0, 4, graph)
 
-    # Test scenario if only one node is in the calculation
+    # Checking if only one node is in the calculation
     def test_flody_only_node_failure(self):
         NO_PATH = sys.maxsize
         graph = [[0, NO_PATH, NO_PATH, NO_PATH]]
         actual = shortest_path(0, 0, 0, graph)
         expect = 0
         self.assertEqual(actual, expect, "Only one node is found")
-
+        
+    # Checking the output after calculation whether is not none
     def test_floyd_output_null_failure(self):
         NO_PATH = sys.maxsize
         graph = [[0, 7, NO_PATH, 8],
@@ -109,9 +110,9 @@ class Test_Floyd(unittest.TestCase):
                  [NO_PATH, NO_PATH, 0, 2],
                  [NO_PATH, NO_PATH, NO_PATH, 0]]
         actual = floyd(graph)
-        # Checking the output after calculation whether is not none
         self.assertIsNotNone(actual)
-
+        
+    # Checking the output format after calculation
     def test_floyd_output_format_failure(self):
         NO_PATH = sys.maxsize
         graph = [[0, 7, NO_PATH, 8],
@@ -120,7 +121,6 @@ class Test_Floyd(unittest.TestCase):
                  [NO_PATH, NO_PATH, NO_PATH, 0]]
         actual = floyd(graph)
         expect = []
-        # Checking the output format after calculation
         self.assertIs(type(actual), type(expect))
 
 
